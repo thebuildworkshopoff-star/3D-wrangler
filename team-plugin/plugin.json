@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "tbw-3d-wrangler",
+  "version": "1.0.0",
+  "description": "Model a photo as named, editable 3D parts for SketchUp.",
+  "author": {"name": "The Build Workshop"},
+  "extensions": {"com.openai": {"interface": {
+    "displayName": "TBW - 3D WRANGLER",
+    "shortDescription": "Photo to editable 3D model",
+    "longDescription": "Attach a photo and an optional real dimension. Create a grouped SketchUp-importable model, or a native SKP on a connected SketchUp 2026 Windows computer.",
+    "developerName": "The Build Workshop",
+    "category": "Productivity",
+    "logo": "./assets/icon.png",
+    "composerIcon": "./assets/icon.png",
+    "defaultPrompt": "Model my attached photo for SketchUp. Keep the parts individually editable."
+  }}}
+}
